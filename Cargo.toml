@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "crates/vexa-runner",
+    "crates/vexa-shared",
+    "crates/vexa-assembler",
+    "crates/vexa-language",
+]
+resolver = "3"

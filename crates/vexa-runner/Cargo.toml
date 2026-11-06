@@ -1,0 +1,11 @@
+[package]
+name = "Nonwa"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+raylib = "6.0.0"
+num-bigint = "0.5.1"
+unsigned-varint = "0.8.0"
+vexa_shared = {path = "../vexa-shared" }
+num-traits = "0.2.19"
