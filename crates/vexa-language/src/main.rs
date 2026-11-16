@@ -1,12 +1,11 @@
-pub mod parser;
-pub mod ast_tree;
-pub mod graph;
+pub mod steps;
+pub mod visualizations;
 
 use std::env::args;
 use std::fs::{read_to_string, write};
 use std::process::{Command, ExitCode};
-
-use crate::ast_tree::ast_to_dot;
+use crate::steps::parser;
+use crate::visualizations::ast_tree::ast_to_dot;
 
 fn main() -> ExitCode {
     let args = args().collect::<Vec<_>>();

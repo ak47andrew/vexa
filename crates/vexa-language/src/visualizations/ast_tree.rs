@@ -1,5 +1,5 @@
-use crate::graph::Graph;
-use crate::parser::{Expr, Op, Statement, Type};
+use super::graph::Graph;
+use crate::steps::parser::{Expr, Op, Statement, Type};
 
 fn type_str(t: Type) -> &'static str {
     match t {
